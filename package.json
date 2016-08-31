@@ -1,0 +1,27 @@
+{
+  "name": "mithril-es6-modules",
+  "version": "1.0.0",
+  "description": "Simple example that shows how to use Mithril with ES6 modules",
+  "scripts": {
+    "watch:js": "jspm bundle --watch app.js dev-bundle.js",
+    "sync": "browser-sync start --server --files dev-bundle.js --no-open",
+    "serve": "npm-run-all --parallel --print-label watch:js sync"
+  },
+  "author": "Olivier Ligot <oligot@gmail.com> (http://www.oligot.be/)",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "2.14.3",
+    "jspm": "0.17.0-beta.28",
+    "npm-run-all": "3.0.0"
+  },
+  "jspm": {
+    "name": "mithril-es6-modules",
+    "main": "app.js",
+    "dependencies": {
+      "mithril": "npm:mithril@^0.2.5"
+    },
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.13"
+    }
+  }
+}
