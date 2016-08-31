@@ -18,4 +18,4 @@ Start a local server that watches files and reload the browser when the files ch
 npm run serve
 ```
 
-Open a browser at the URL given by browser-sync (usually this will be http://localhost:3000/)
+Open a browser at the URL given by browser-sync (usually this will be [http://localhost:3000/](http://localhost:3000/))
