@@ -33,6 +33,6 @@ Start the server with
 jspm run server.js
 ```
 
-Open a browser at the URL (usually this will be [http://localhost:8080/](http://localhost:8080/)).
+Open a browser at the URL [http://localhost:8080/](http://localhost:8080/).
 
 You should now see a server-side rendered Hello World.
