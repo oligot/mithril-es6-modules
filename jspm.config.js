@@ -28,7 +28,8 @@ SystemJS.config({
       "vm": "github:jspm/nodelibs-vm@0.2.0-alpha",
       "net": "github:jspm/nodelibs-net@0.2.0-alpha",
       "querystring": "github:jspm/nodelibs-querystring@0.2.0-alpha",
-      "mithril-node-render": "npm:mithril-node-render@0.5.0"
+      "mithril-node-render": "npm:mithril-node-render@0.5.0",
+      "morgan": "npm:morgan@1.7.0"
     },
     "packages": {
       "npm:express@4.14.0": {
@@ -358,6 +359,15 @@ SystemJS.config({
       "github:jspm/nodelibs-string_decoder@0.2.0-alpha": {
         "map": {
           "string_decoder-browserify": "npm:string_decoder@0.10.31"
+        }
+      },
+      "npm:morgan@1.7.0": {
+        "map": {
+          "basic-auth": "npm:basic-auth@1.0.4",
+          "on-finished": "npm:on-finished@2.3.0",
+          "debug": "npm:debug@2.2.0",
+          "depd": "npm:depd@1.1.0",
+          "on-headers": "npm:on-headers@1.0.1"
         }
       }
     }
