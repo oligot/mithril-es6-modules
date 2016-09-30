@@ -1,4 +1,8 @@
 import m from 'mithril';
 import Hello from './hello.js';
 
-m.mount(document.getElementById('container'), Hello);
+function view() {
+  return m(Hello, { name: 'client' });
+}
+
+m.mount(document.getElementById('container'), { view });

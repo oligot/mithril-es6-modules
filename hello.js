@@ -1,7 +1,7 @@
 import m from 'mithril';
 
-function view() {
-  return m('div', 'Hello World!');
+function view(ctrl, attrs) {
+  return m('div', `Hello ${attrs.name}!`);
 }
 
 export default { view };

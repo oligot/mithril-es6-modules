@@ -29,7 +29,8 @@ SystemJS.config({
       "net": "github:jspm/nodelibs-net@0.2.0-alpha",
       "querystring": "github:jspm/nodelibs-querystring@0.2.0-alpha",
       "mithril-node-render": "npm:mithril-node-render@0.5.0",
-      "morgan": "npm:morgan@1.7.0"
+      "morgan": "npm:morgan@1.7.0",
+      "cheerio": "npm:cheerio@0.22.0"
     },
     "packages": {
       "npm:express@4.14.0": {
@@ -368,6 +369,67 @@ SystemJS.config({
           "debug": "npm:debug@2.2.0",
           "depd": "npm:depd@1.1.0",
           "on-headers": "npm:on-headers@1.0.1"
+        }
+      },
+      "npm:cheerio@0.22.0": {
+        "map": {
+          "entities": "npm:entities@1.1.1",
+          "css-select": "npm:css-select@1.2.0",
+          "dom-serializer": "npm:dom-serializer@0.1.0",
+          "lodash.bind": "npm:lodash.bind@4.2.1",
+          "lodash.pick": "npm:lodash.pick@4.4.0",
+          "lodash.foreach": "npm:lodash.foreach@4.5.0",
+          "lodash.defaults": "npm:lodash.defaults@4.2.0",
+          "lodash.flatten": "npm:lodash.flatten@4.4.0",
+          "lodash.filter": "npm:lodash.filter@4.6.0",
+          "lodash.reject": "npm:lodash.reject@4.6.0",
+          "htmlparser2": "npm:htmlparser2@3.9.1",
+          "lodash.assignin": "npm:lodash.assignin@4.2.0",
+          "lodash.some": "npm:lodash.some@4.6.0",
+          "lodash.reduce": "npm:lodash.reduce@4.6.0",
+          "lodash.map": "npm:lodash.map@4.6.0",
+          "lodash.merge": "npm:lodash.merge@4.6.0"
+        }
+      },
+      "npm:dom-serializer@0.1.0": {
+        "map": {
+          "entities": "npm:entities@1.1.1",
+          "domelementtype": "npm:domelementtype@1.1.3"
+        }
+      },
+      "npm:css-select@1.2.0": {
+        "map": {
+          "nth-check": "npm:nth-check@1.0.1",
+          "boolbase": "npm:boolbase@1.0.0",
+          "css-what": "npm:css-what@2.1.0",
+          "domutils": "npm:domutils@1.5.1"
+        }
+      },
+      "npm:htmlparser2@3.9.1": {
+        "map": {
+          "domelementtype": "npm:domelementtype@1.3.0",
+          "domutils": "npm:domutils@1.5.1",
+          "entities": "npm:entities@1.1.1",
+          "inherits": "npm:inherits@2.0.3",
+          "readable-stream": "npm:readable-stream@2.1.5",
+          "domhandler": "npm:domhandler@2.3.0",
+          "node-readable-stream": "npm:readable-stream@2.1.5"
+        }
+      },
+      "npm:nth-check@1.0.1": {
+        "map": {
+          "boolbase": "npm:boolbase@1.0.0"
+        }
+      },
+      "npm:domutils@1.5.1": {
+        "map": {
+          "dom-serializer": "npm:dom-serializer@0.1.0",
+          "domelementtype": "npm:domelementtype@1.3.0"
+        }
+      },
+      "npm:domhandler@2.3.0": {
+        "map": {
+          "domelementtype": "npm:domelementtype@1.3.0"
         }
       }
     }

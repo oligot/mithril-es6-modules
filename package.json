@@ -23,6 +23,7 @@
     "devDependencies": {
       "assert": "github:jspm/nodelibs-assert@^0.2.0-alpha",
       "buffer": "github:jspm/nodelibs-buffer@^0.2.0-alpha",
+      "cheerio": "npm:cheerio@^0.22.0",
       "constants": "github:jspm/nodelibs-constants@^0.2.0-alpha",
       "crypto": "github:jspm/nodelibs-crypto@^0.2.0-alpha",
       "events": "github:jspm/nodelibs-events@^0.2.0-alpha",
