@@ -12,7 +12,8 @@
   "devDependencies": {
     "browser-sync": "2.14.3",
     "jspm": "0.17.0-beta.28",
-    "npm-run-all": "3.0.0"
+    "npm-run-all": "3.0.0",
+    "tern-jspm": "^0.1.0"
   },
   "jspm": {
     "name": "mithril-es6-modules",
